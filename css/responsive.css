@@ -1,0 +1,24 @@
+@media (max-width:574px){
+    .banner-section {
+         overflow: visible; 
+    }
+    .heading-2 h6{
+        display: none;
+    }
+    .circle-image img {
+        position: absolute;
+        right: 98px;
+        width: 300px;
+        top: 720px;
+    }
+    .social-section ul li {
+        transform: translateY(-15px);
+        margin-right: 55px;
+        margin-top: 40px;
+        list-style: none;
+    }
+    .social-section ul {
+        justify-content: flex-end;
+        display: flex;
+    }
+}
